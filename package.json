@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/unevrse/node-db-docker#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "massive": "^4.5.0",
     "winston": "^2.4.0"
   }
