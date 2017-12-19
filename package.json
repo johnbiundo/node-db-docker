@@ -1,0 +1,23 @@
+{
+  "name": "node-db-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unevrse/node-db-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unevrse/node-db-docker/issues"
+  },
+  "homepage": "https://github.com/unevrse/node-db-docker#readme",
+  "dependencies": {
+    "massive": "^4.5.0",
+    "winston": "^2.4.0"
+  }
+}
