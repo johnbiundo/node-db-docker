@@ -1,2 +1,4 @@
 #!/bin/sh
-exec /usr/bin/node /test/test.js >>/var/log/test.log 2>&1
+echo 'starting node'
+exec /usr/bin/node /test/test.js
+echo 'started node'

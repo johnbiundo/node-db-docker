@@ -1,0 +1,5 @@
+docker volume create \
+	-d "cloudstor:aws" \
+	--opt backing=relocatable \
+	--opt size=5 \
+	redis-vol

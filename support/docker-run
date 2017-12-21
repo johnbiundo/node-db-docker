@@ -1,0 +1,8 @@
+docker run -d \
+--name node-test \
+-p 80:9999 \
+--env TEST_DB_HOST=dockertest1.c8wdthoekgha.us-west-1.rds.amazonaws.com \
+--env TEST_DB_NAME=unvtest \
+--env TEST_USER=unevrse \
+--env TEST_PASSWORD=unevrse1 \
+unevrse/node-db-docker:latest

@@ -1,0 +1,7 @@
+docker service create \
+--name nginx \
+--publish published=80,target=80 \
+--publish published=443,target=80 \
+--with-registry-auth \
+--label com.docker.aws.lb.arn="arn:aws:acm:us-west-1:105220694203:certificate/8e568a60-6eba-423d-92ad-aa87fe00c75c" \
+unevrse/nxtest:latest
