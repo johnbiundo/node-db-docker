@@ -1,0 +1,15 @@
+node_modules*
+apidoc*
+artifacts*
+client*
+database*
+.dockerignore
+e2e*
+.git
+.git*
+Gruntfile*
+.Gruntfile*
+log*
+pm2*
+README*
+server*
