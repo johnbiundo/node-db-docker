@@ -30,7 +30,7 @@ var server = require('http').createServer(app);
 
 require('./routes')(app);
 
-const DEFAULT_APP_SERVICE_PORT = 5991;
+const DEFAULT_APP_SERVICE_PORT = 8888;
 const APP_SERVICE_PORT = process.env.APP_SERVICE_PORT || DEFAULT_APP_SERVICE_PORT;
 var dbmgr;
 

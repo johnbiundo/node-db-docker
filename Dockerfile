@@ -9,29 +9,15 @@
 # 	- Expects a TEST_DB_HOST env variable
 #   e.g.,
 # 		docker run --rm -d \
-#                --env TEST_DB_HOST=unv-test-aux.unevrse.com \
+#                --env TEST_DB_HOST=192.168.2.123 \
 #                --env TEST_DB_PASSWORD=unevrse \
 #                --env TEST_DB_USER=unevrse \
 #                --env TEST_DB_NAME=unvprod \
 #                -p 5991:5991 \
-#                unevrse/node-db-docker:v1
-#
+#                unevrse/node-db-docker:
 # Building:
 #   Build with
 #     docker build -t unevrse/node-db-docker:v1 . (use appropriate version tag)
-#
-# Running as a service in docker cloud
-# 
-# docker service create \
-#--name node-db \
-#--publish published=80,target=9999 \
-#--publish published=443,target=9999 \
-#--env TEST_DB_HOST=dockertest1.c8wdthoekgha.us-west-1.rds.amazonaws.com \
-#--env TEST_DB_NAME=unvtest \
-#--env TEST_USER=unevrse \
-#--env TEST_PASSWORD='!Unevrse1' \
-#--with-registry-auth \
-#--label com.docker.aws.lb.arn="arn:aws:acm:us-west-1:105220694203:certificate/8e568a60-6eba-423d-92ad-aa87fe00c75c" \
 #
 ######################################################
 # BUILD
